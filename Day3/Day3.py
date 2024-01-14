@@ -108,3 +108,40 @@ if (number == 0):
     print("{number} is an even number")
 else:
     print(f"{number} is an odd number!")
+
+# Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+val = int(2.7)
+floor_div = 7 // 3
+
+print(floor_div == val)
+
+# Check if type of '10' is equal to type of 10
+print(type('10') == type(10))
+
+# Check if int('9.8') is equal to 10
+vale = float('9.8')
+print(int(vale) == 10)
+
+# Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+Hour = int(input("Enter Hours: "))
+rate = int(input("Enter rate in $$: "))
+
+weekly_earning = Hour * rate
+print("Enter hours: ", Hour)
+print("Enter rate per hour: ", rate)
+print("Your weekly earning is: ", weekly_earning)
+
+# Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
+
+years = int(input("Enter the number of years you have used: "))
+lived = years * 365 * 24 * 60 * 60
+
+print('Enter the number of years you have lived: ', years)
+print(f'You have lived for {lived} seconds')
+
+# Define the number of rows for the table
+num_rows = 5
+
+# Print the table
+for i in range(1, num_rows + 1):
+    print(f"{i} 1 {i} {i*i} {i*i*i}")
