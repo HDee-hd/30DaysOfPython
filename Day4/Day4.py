@@ -26,3 +26,17 @@ nResult = (company.find("coding"))
 print(nResult)
 print(company.replace("Coding", "Python"))
 print(company.split(" "))
+ncompany = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(ncompany.split(", "))
+print(company[0])
+print(len(company) -1)
+print(company[10])
+necompany = company.replace("Coding", "Python")
+print(necompany[0:15:7])
+print(company[0:15:7])
+print(company.index("C"))
+print(company.rfind("l"))
+# Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+word = "You cannot end a sentence with because because because is a conjunction"
+print(word.index("because"))
+print(word.rindex("because"))
