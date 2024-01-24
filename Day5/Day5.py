@@ -15,3 +15,12 @@ print('Web technologies:', web_techs)
 print('Number of web technologies:', len(web_techs))
 print('Countries:', countries)
 print('Number of countries:', len(countries))
+
+countries = ['Germany', 'France','Belgium','Sweden','Denmark','Finland','Norway','Iceland','Estonia']
+gr, fr, bg, sw, *scandic, es = countries
+print(gr)
+print(fr)
+print(bg)
+print(sw)
+print(scandic)
+print(es)
