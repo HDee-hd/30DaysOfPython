@@ -1,26 +1,26 @@
-fruits = ['banana', 'orange', 'mango', 'lemon']                     # list of fruits
-vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']      # list of vegetables
-animal_products = ['milk', 'meat', 'butter', 'yoghurt']             # list of animal products
-web_techs = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB'] # list of web technologies
-countries = ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
+# Declare an empty list
+lst = []
 
-# Print the lists and its length
-print('Fruits:', fruits)
-print('Number of fruits:', len(fruits))
-print('Vegetables:', vegetables)
-print('Number of vegetables:', len(vegetables))
-print('Animal products:',animal_products)
-print('Number of animal products:', len(animal_products))
-print('Web technologies:', web_techs)
-print('Number of web technologies:', len(web_techs))
-print('Countries:', countries)
-print('Number of countries:', len(countries))
+# Declare a list with more than 5 items
+names = ["Hassan", "Olukay", "Dairo"]
 
-countries = ['Germany', 'France','Belgium','Sweden','Denmark','Finland','Norway','Iceland','Estonia']
-gr, fr, bg, sw, *scandic, es = countries
-print(gr)
-print(fr)
-print(bg)
-print(sw)
-print(scandic)
-print(es)
+
+# Find the length of your list
+print(len(names))
+
+# Get the first item, the middle item and the last item of the list
+namess = names[0]
+print(namess)
+
+
+# Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+
+# Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+
+# Print the list using print()
+
+# Print the number of companies in the list
+
+# Print the first, middle and last company
+
+# Print the list after modifying one of the companies
