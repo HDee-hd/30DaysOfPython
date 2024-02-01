@@ -77,3 +77,6 @@ front_end.extend(back_end)
 full_stack = front_end + back_end
 print(full_stack)
 # Then insert Python and SQL after Redux.
+full_stack.append("Python")
+full_stack.append("SQL")
+print(full_stack)
