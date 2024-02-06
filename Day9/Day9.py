@@ -22,9 +22,30 @@ my_age = int(input("Enter your age: "))
 old = my_age - age
 young = age - my_age
 if my_age > age: 
-        print("Enter your age: " , my_age)
+        
         print(f"You are {old} years older than me.")
 elif my_age < age:
-        print("Enter your age: " , my_age)
+        
         print(f"You are {young} years younger than me.")
 else: print("We're the same age")
+
+#Number 3
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+if a > b:
+        print(f"{a} is greater than {b}")
+elif a < b:
+        print(f"{a} is smaller than {b}")
+else: print(f"{a} is equal to {b}")
+# Number 4
+score = int(input("Enter your Score: "))
+if score >= 80:
+        print("You're on grade A")
+elif score >= 70:
+        print("You're on grade B")
+elif score >= 60:
+        print("You're on grade C")
+elif score >= 50:
+        print("You're on grade D")
+elif score >= 0:
+        print("You're on grade B")
